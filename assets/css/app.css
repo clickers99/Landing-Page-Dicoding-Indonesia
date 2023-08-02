@@ -40,7 +40,7 @@ header.navbar-container .nav-list li {
     list-style-type: none;
 }
 
-header.navbar-container .nav-list li a{
+header.navbar-container .nav-list li a {
     text-decoration: none;
     font-size: 1.05rem;
     font-weight: 500;
@@ -146,6 +146,9 @@ main aside. .social-media ul {
 
 main aside .social-media li {
     list-style-type: none;
+}
+
+main aside .social-media li a {
     text-decoration: none;
     font-size: 1.5rem;
     color: white;
@@ -154,5 +157,37 @@ main aside .social-media li {
 
 main aside .social-media li a:hover {
     color: #89b0d9;
+}
+
+@media screen and (max-width: 768px) {
+    header.navbar-container {
+        flex-direction: column;
+    }
+
+    header .navbar-container .nav-list ul {
+        flex-wrap: wrap;
+        column-gap: .5rem;
+    }
+
+    main {
+        padding: 1rem 3rem;
+    }
+
+    main .content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    main .content .content-description .title {
+        font-size: 3rem;
+    }
+
+    main .content .content-description p {
+        font-size: 1rem;
+    }
+
+    main .content .content-image {
+        order: -1;
+    }
 }
 
