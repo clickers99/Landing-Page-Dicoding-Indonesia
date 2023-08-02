@@ -164,7 +164,7 @@ main aside .social-media li a:hover {
         flex-direction: column;
     }
 
-    header .navbar-container .nav-list ul {
+    header.navbar-container .nav-list ul {
         flex-wrap: wrap;
         column-gap: .5rem;
     }
@@ -186,8 +186,9 @@ main aside .social-media li a:hover {
         font-size: 1rem;
     }
 
-    main .content .content-image {
+    main .content-image {
         order: -1;
     }
+    
 }
 
