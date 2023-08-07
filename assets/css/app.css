@@ -30,9 +30,9 @@ header.navbar-container .logo img {
 }
 
 header.navbar-container .nav-list ul {
-    padding left: 0;
+    padding-left: 0;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     gap: 2rem 1rem;
 }
 
@@ -47,7 +47,7 @@ header.navbar-container .nav-list li a {
     color: black;
     padding: .5rem 1.5rem;
     border-radius: 999px;
-    translation: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 
 header.navbar-container .nav-list li:hover a {
@@ -130,7 +130,7 @@ main aside .social-media {
     display: flex;
 }
 
-main aside. .social-media ul {
+main aside .social-media ul {
     padding: 1.5rem 1rem;
     margin: auto;
     border-top-left-radius: 12px;
